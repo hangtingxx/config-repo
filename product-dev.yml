@@ -1,4 +1,4 @@
-env: product
+env: product-dev.yml
 spring:
   application:
     name: product
@@ -10,8 +10,4 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
 server:
   port: 8084
-rabbitmq:
-    host: 192.168.1.104
-    username: guest
-    password: guest
-    port: 5672
+
