@@ -1,4 +1,4 @@
-env: order-dev8
+env: order-dev88
 spring:
   datasource:
     username: root
