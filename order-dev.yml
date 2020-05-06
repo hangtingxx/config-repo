@@ -1,4 +1,4 @@
-env: order-dev6
+env: order-dev7
 spring:
   datasource:
     username: root
@@ -12,8 +12,3 @@ server:
 PRODUCT:
   ribbon:
       NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
-rabbitmq:
-  host: 192.168.1.104
-  username: guest
-  password: guest
-  port: 5672
