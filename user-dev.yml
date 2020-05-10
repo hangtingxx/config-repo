@@ -4,13 +4,13 @@ spring:
     password: mysql
     url: jdbc:mysql://localhost:3306/baidu?serverTimezone=GMT%2B8
     driver-class-name: com.mysql.cj.jdbc.Driver
-  redis:
-    host: l92.168.1.104
-    port: 6379
   rabbitmq:
-    host: l92.168.1.104
     port: 5672
     username: guest
+    host: 192.168.1.104
     password: guest
+  redis:
+    host: 192.168.1.104
+    port: 6379
 server:
   port: 9090
